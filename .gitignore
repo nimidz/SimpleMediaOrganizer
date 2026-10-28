@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Production & Build outputs
+dist/
+dist-electron/
+release-chromium/
+release-tauri/
+release-native/
+
+# Rust / Cargo build artifacts
+src-tauri/target/
+**/*.rs.bk
+
+# Temp & logs
+*.log
+scratch_*
+.tempmediaStorage/
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# AI Assistant & Internal Agent files (Local only)
+.agents/
+AGENTS.md
+GEMINI.md
+scratch/
+scratch*
+
+# Legacy & Sample Directories
+HanyaContoh/
+SimpleMediaOrganizer.Native/
+electron/
+
